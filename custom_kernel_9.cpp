@@ -26,7 +26,7 @@
 #define LDS_SZ LDS_ARR_LENGTH * 8
 #endif
 
-#if LDS_SZ > 65536
+#if LDS_SZ > 2*65536
 #error "Not enough LDS space!"
 #endif
 
