@@ -17,13 +17,13 @@
 #define KREG 2    // 2
 #define KINNER 2  // 2
 
-#define BLOCK_SIZE_X 16
-#define BLOCK_SIZE_Y 16
+//#define BLOCK_SIZE_X 16
+//#define BLOCK_SIZE_Y 16
 #define BLOCK_SIZE (BLOCK_SIZE_X * BLOCK_SIZE_Y)
-#define MREG 32
-#define KLOOP 1
-#define KLDS 16
-#define NLDS 8
+//#define MREG 32
+//#define KLOOP 1
+//#define KLDS 16
+//#define NLDS 8
 
 
 void custom_kernel_1_call(realtype *, realtype *, realtype *, int, int, int,

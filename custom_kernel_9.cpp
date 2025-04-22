@@ -15,9 +15,9 @@
 #error "MREG divisibility error"
 #endif
 
-#define TN 8
-#define TK 4
-#define SX 1
+//#define TN 8
+//#define TK 4
+//#define SX 1
 
 #define LDS_ARR_LENGTH (MREG * (NLDS * BLOCK_SIZE_Y + KLDS * BLOCK_SIZE_X))
 #ifdef RLF
