@@ -8,8 +8,6 @@
 
 #include "cublas_v2.h"
 
-#include "cblas.h"
-
 #include "custom_kernel_header.hpp"
 
 int main(int argc, char **argv) {
