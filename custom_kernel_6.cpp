@@ -6,7 +6,6 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "cblas.h"
 #include "custom_kernel_header.hpp"
 
 #if (MREG % BLOCK_SIZE_X != 0) || (MREG % BLOCK_SIZE_Y != 0)
