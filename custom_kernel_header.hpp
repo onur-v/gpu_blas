@@ -53,4 +53,6 @@ void custom_kernel_8_call(realtype *, realtype *, realtype *, int, int, int,
 void custom_kernel_9_call(realtype *, realtype *, realtype *, int, int, int,
                           realtype, realtype);
 
+void custom_kernel_10_call(realtype *, realtype *, realtype *, int, int, int,
+                          realtype, realtype);
 #endif
